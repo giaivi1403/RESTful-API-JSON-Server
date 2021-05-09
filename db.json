@@ -1,0 +1,20 @@
+{
+  "profile": {
+    "name": "Giai Vi"
+  },
+  "products": [
+    {
+      "id": "1",
+      "name": "Nike Air Max"
+    },
+    {
+      "id": "2",
+      "name": "Nike Air Force 1"
+    },
+    {
+      "name": "Nike Air",
+      "createdAt": 1620577782674,
+      "id": "65og3xi"
+    }
+  ]
+}

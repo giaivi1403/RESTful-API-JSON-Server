@@ -1,0 +1,17 @@
+@baseURL= http:localhost:3000/api/
+@name= products
+
+###
+
+# @name getAll
+GET http://localhost:3000/api/products
+
+###
+
+# @name addNew
+POST http://localhost:3000/api/products
+Content-Type: application/json
+
+{
+    "name" : "Nike Air"
+}

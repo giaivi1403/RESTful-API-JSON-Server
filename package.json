@@ -4,8 +4,10 @@
   "description": "test api",
   "main": "main.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev" : "nodemon main.js",
+    "start" : "node main.js"
+   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/giaivi1403/RESTful-API-JSON-Server.git"
@@ -15,5 +17,11 @@
   "bugs": {
     "url": "https://github.com/giaivi1403/RESTful-API-JSON-Server/issues"
   },
-  "homepage": "https://github.com/giaivi1403/RESTful-API-JSON-Server#readme"
+  "homepage": "https://github.com/giaivi1403/RESTful-API-JSON-Server#readme",
+  "dependencies": {
+    "json-server": "^0.16.3"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.7"
+  }
 }
