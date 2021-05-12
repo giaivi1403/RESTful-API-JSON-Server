@@ -30,3 +30,8 @@ Content-Type: application/json
 
 # @name delete
 DELETE {{baseURL}}/{{name}}/2
+
+###
+
+# @name pagination
+GET {{baseURL}}/{{name}}?_page=5&_limit=4
