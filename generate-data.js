@@ -48,7 +48,7 @@ const generateProducts = (categoryList, n) => {
 // generate data
 (() => {
     const categoryList = generateCategories(6);
-    const productList = generateProducts(categoryList, 4);
+    const productList = generateProducts(categoryList, 10);
     const db = {
         categories: categoryList,
         products: productList,
