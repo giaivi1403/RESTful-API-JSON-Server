@@ -35,7 +35,10 @@ const generateProducts = (categoryList, n) => {
                 description: faker.commerce.productDescription(),
                 createdAt: Date.now(),
                 updatedAt: Date.now(),
-                thumbnailUrl: faker.image.imageUrl(400, 400),
+                thumbnailUrl: `${faker.image.imageUrl(
+                    400,
+                    400
+                )}?random=${Math.round(Math.random() * 1000)}`,
             };
 
             productList.push(product);
